@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Restore original global styles that should override Tailwind base */
+html {
+  background-color: theme("colors.custom-bg") !important;
+  color: white !important;
+}
+
+body {
+  margin: 0 !important;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Roboto", "Oxygen", "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family:
+    source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace !important;
+}
+
+/* Links styling */
+a {
+  color: white !important;
+  text-decoration: none !important;
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: theme("colors.custom-hover") !important;
+}
+
+/* Active navigation links */
+nav ul li a.active {
+  border-bottom: 2px solid currentColor;
+  padding-bottom: 1px;
+}
+
+/* Chrono timeline styling */
+.chrono-card-content {
+  box-shadow: none !important;
+}
+
+/* Global scrollbar hiding for the entire app */
+* {
+  scrollbar-width: none !important; /* Firefox */
+  -ms-overflow-style: none !important; /* Internet Explorer 10+ */
+}
+
+*::-webkit-scrollbar {
+  display: none !important; /* Chrome, Safari, Opera */
+}
+
+*::-webkit-scrollbar-track {
+  display: none !important;
+}
+
+*::-webkit-scrollbar-thumb {
+  display: none !important;
+}
