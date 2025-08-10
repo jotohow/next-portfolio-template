@@ -1,0 +1,56 @@
+[
+  {
+    "id": "education-1",
+    "image": "/ldn.avif",
+    "cardTitle": "Bachelor's Degree",
+    "cardSubtitle": "Sample University",
+    "cardDetailedText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "date": "01-01-2014",
+    "date_show": "2011 - 2014",
+    "media": {
+      "source": { "url": "/ldn.avif" },
+      "type": "IMAGE"
+    }
+  },
+
+  {
+    "id": "job-1",
+    "image": "/ldn.avif",
+    "cardTitle": "Entry Level Position",
+    "cardSubtitle": "Sample Tech Company",
+    "cardDetailedText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "date": "01-12-2014",
+    "date_show": "2014",
+    "media": {
+      "source": { "url": "/ldn.avif" },
+      "type": "IMAGE"
+    }
+  },
+  {
+    "id": "job-2",
+    "image": "/ldn.avif",
+    "cardTitle": "Mid-Level Role",
+    "cardSubtitle": "Another Company Ltd",
+    "cardDetailedText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "date": "07-12-2023",
+    "date_show": "2014 - 2023",
+    "media": {
+      "source": { "url": "/ldn.avif" },
+      "type": "IMAGE"
+    }
+  },
+
+  {
+    "id": "job-4",
+    "image": "/ldn.avif",
+    "cardTitle": "Senior Position",
+    "cardSubtitle": "Current Employer",
+    "cardDetailedText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "date": "01-01-2024",
+    "date_show": "2024 - Present",
+    "media": {
+      "source": { "url": "/ldn.avif" },
+      "type": "IMAGE"
+    }
+  }
+]
