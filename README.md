@@ -2,13 +2,14 @@
 
 A clean, responsive portfolio template built with Next.js and Tailwind CSS.
 
+See the live template on [Netlify](https://nextjs-portfolio-template.netlify.app/)
+
 ## 🛠️ Tech Stack
 
 - **Framework**: Next.js 15
 - **Styling**: Tailwind CSS
 - **Icons**: Heroicons & React Social Icons
 - **Content**: Markdown files with gray-matter frontmatter
-- **Timeline**: React Chrono component
 
 ## 🚀 Quick Start
 
