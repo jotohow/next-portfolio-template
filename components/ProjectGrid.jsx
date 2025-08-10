@@ -1,7 +1,6 @@
 import React from "react";
 import Link from "next/link";
 
-// TODO: How do they create pages from the data in the other blog page?
 export default function ProjectGrid({ data = [] }) {
   return (
     <div
@@ -32,7 +31,7 @@ function ProjectCard({ data }) {
           className="w-full h-[150px] border-4 border-white rounded"
           alt={data.title}
         />
-        <div className="p-4 flex-1 flex flex-col justify-center">
+        <div className="py-4 w-full h-full flex-1 flex flex-col ">
           <h2 className="text-base md:text-base font-bold">{data.title}</h2>
           {data.subtitle && (
             <p className="text-sm text-gray-300 mt-2">{data.subtitle}</p>
