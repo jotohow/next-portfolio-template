@@ -1,5 +1,3 @@
-"use client";
-
 import { useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -25,7 +23,7 @@ export default function Header() {
   ];
 
   return (
-    <header className="sticky top-0 w-full bg-custom-blue text-white z-[9999]">
+    <header className="sticky top-0 w-full bg-custom-bg text-white z-[9999]">
       <div className="grid grid-cols-[1fr_auto] md:grid-cols-[100px_1fr_100px] items-center py-4 px-4">
         {/* Left: Hamburger button (mobile only) */}
         <div className="justify-self-start">
